@@ -6,7 +6,6 @@ require "pry"
 
 class EmailAddressParser
   attr_accessor
-  @addresses = []
   def initialize(list)
     @list = list
   end
